@@ -5,11 +5,15 @@ Algoritmo "semnome"
 // Autor(a)    : Geovana, Guilherme, Gabriel
 // Data atual  : 24/08/2022
 Var
-// Seção de Declarações das variáveis 
+
+procedimento subtracao(a: real; b: real)
+inicio
+escreval(a," -",b," =",(a-b))
+fimprocedimento
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
 
+subtracao(1,2)
 
 Fimalgoritmo
