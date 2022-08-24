@@ -1,10 +1,17 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
-// Professor   : Edson Shinki Kaneshima 
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
-// Autor(a)    : Geovana, Guilherme, Gabriel
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
+// Professor   : Antonio Carlos Nicolodi 
+// Descri√ß√£o   : Aqui voc√™ descreve o que o programa faz! (fun√ß√£o)
+// Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 24/08/2022
 Var
+
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
+   procedimento soma (a : real; b : real)
+   inicio
+   escreva(a,"+",b,"=",(a + b))
+   fimprocedimento
+
 
 procedimento subtracao(a: real; b: real)
 inicio
@@ -15,5 +22,7 @@ fimprocedimento
 Inicio
 
 subtracao(1,2)
+    soma(1,2)
+
 
 Fimalgoritmo
